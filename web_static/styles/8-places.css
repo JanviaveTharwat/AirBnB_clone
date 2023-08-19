@@ -13,13 +13,11 @@ article {
 	flex-wrap: wrap;
 	flex-direction: row;
 	align-content: flex-start;
-
 	padding-top: 10px;
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-bottom: 20px;
 	margin: 20px;
-
 	border: 1px solid #FF5A5F;
 	border-radius: 4px;
 }
@@ -28,7 +26,6 @@ article {
 	display: flex;
 	flex-direction: row;
 	position: relative;
-
 	height: 80px;	
 	width: 100%;
 }
@@ -51,13 +48,14 @@ article {
 }
 
 .information {
-    height: 80px;
-    border-top: 1px solid #DDDDDD;
-    border-bottom: 1px solid #DDDDDD;
-    display: flex;
-    justify-content: center;
-}
+	height: 80px;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	display: flex;
+	justify-content: center;
+	padding: inherit;
 
+}
 .max_guest, .number_rooms, .number_bathrooms {
     width: 100px;
     background-repeat: no-repeat;
@@ -80,12 +78,14 @@ article {
 }
 
 .max_guest h4, .number_rooms h4, .number_bathrooms h4 {
-    margin: 5px;
+	margin: 5px;
 }
 
 .user {
 	margin-top: 5px;
-	margin-bottom: 5px;	
+	margin-bottom: 5px;
+	display: inline-flex;
+	align-items: flex-end;
 }
 
 .description {
@@ -123,8 +123,8 @@ article h2 {
 	background-image: url("../images/icon_bed.png");
 	background-repeat: no-repeat;
 	background-position: center;
-    width: 50px;
-    height: 50px;
+    	width: 50px;
+	height: 50px;
 }
 
 .bath_icon {
@@ -132,6 +132,6 @@ article h2 {
 	background-image: url("../images/icon_bath.png");
 	background-repeat: no-repeat;
 	background-position: center;
-    width: 50px;
-    height: 50px;
+	width: 50px;
+    	height: 50px;
 }
