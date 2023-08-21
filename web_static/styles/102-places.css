@@ -15,7 +15,7 @@
   justify-content: center;
 }
 
-.place_item {
+.place_items > article {
   width: 390px;
   padding: 20px;
   margin: 20px;
